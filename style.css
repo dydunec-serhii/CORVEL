@@ -228,3 +228,209 @@ svg * {
     font-weight: weight;
     font-style: normal;
 }
+
+.head-sec {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.big-back-img-head {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+    /* Фонове зображення — нижче */
+}
+
+.div-head-z-index {
+    position: absolute;
+    top: 35px;
+
+    left: 70px;
+
+    z-index: 2;
+
+}
+
+.black-1-head {
+    width: 40px;
+    height: 15px;
+    background-color: #000000;
+}
+
+.black-2-head {
+    width: 40px;
+    height: 15px;
+    background-color: #000000;
+}
+
+.black-3-head {
+    width: 35px;
+    height: 15px;
+    background-color: #000000;
+}
+
+.black-4-head {
+    width: 70px;
+    height: 15px;
+    background-color: #000000;
+}
+
+.black-5-head {
+    width: 35px;
+    height: 15px;
+    background-color: #000000;
+}
+
+.ul-div-black {
+    /* position: absolute;
+    z-index: 2;
+    top: 35px;
+    left: 50px;
+    column-gap: 48px; */
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 35px;
+    left: 50px;
+    /* Підрегулюєш як треба */
+    column-gap: 48px;
+    /* Відстань між блоками */
+    list-style: none;
+}
+
+.div-palka2 {
+    position: absolute;
+    top: 700px;
+    left: 70px;
+    z-index: 2;
+    height: 1.2px;
+    background-color: black;
+    width: calc(100% - 140px);
+}
+.div-palka {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    z-index: 2;
+    height: 2px;
+    background-color: black;
+    width: calc(100% - 140px);
+}
+.head2 {
+    background-image: url(./big-back/big-first-back.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ul-serch-card-head {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.li-lypa {
+    display: flex;
+    column-gap: 15px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.coshik {
+    display: flex;
+    column-gap: 15px;
+    font-size: 20px;
+}
+
+.small-peple-head {
+    display: flex;
+    column-gap: 25px;
+}
+
+.header-icons {
+    position: absolute;
+    top: 35px;
+    right: 70px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header-icons .icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.header-icons .bookmark,
+.header-icons .profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-icons .cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-icons .search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.div-strilka-head {
+    display: flex;
+    position: relative;
+    top: 330px;
+    left: 100px;
+    column-gap: 1250px;
+}
+
+.mixed-tex {
+    margin-top: 450px;
+    margin-left: 135px;
+}
+
+.h1-mix-fix {
+    font-size: 45px;
+}
+
+.p-mix-fix {
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.butt-mix-fix {
+    margin-top: 25px;
+    border: none;
+    outline: 1.5px solid black;
+    font-size: 10px;
+    width: 190px;
+    height: 35px;
+    color: #000000;
+    background-color: transparent;
+}
+.p-first-sec{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    text-align-last: center; 
+}
