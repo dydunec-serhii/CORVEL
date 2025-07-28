@@ -409,14 +409,16 @@ svg * {
     margin-top: 450px;
     margin-left: 135px;
 }
+
 @media (max-width:530px) {
-    .mixed-tex{
+    .mixed-tex {
         position: relative;
         right: 50px;
     }
 }
+
 @media (max-width:460px) {
-    .mixed-tex{
+    .mixed-tex {
         position: relative;
         right: 100px;
         bottom: 100px;
@@ -465,16 +467,19 @@ svg * {
         right: 100px;
     }
 }
+
 @media (max-width:1000px) {
-    .col-adapt{
+    .col-adapt {
         color: #5c5858;
     }
 }
+
 @media (max-width:570px) {
-    .header-icons{
+    .header-icons {
         margin-top: 40px;
     }
 }
+
 .posision-summary {
     display: flex;
     justify-content: end;
@@ -537,4 +542,65 @@ svg * {
     .mar-top-one {
         margin-top: 20px;
     }
+}
+
+.man-woman-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.man {
+    background-image: url(./big-back/man-big-photo.png);
+    width: 740px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.woman {
+    background-image: url(./big-back/girl-big-photo.png);
+    width: 740px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-sec-man-woman {
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* margin-top: 250px; */
+    font-size: 25px;
+}
+
+.left-butt-man-woman {
+    display: flex;
+    justify-content: center;
+}
+
+.man,
+.woman {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 740px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-sec-man-woman {
+    font-size: 25px;
+}
+
+.left-butt-man-woman1 {
+    padding: 10px 20px;
 }
