@@ -448,7 +448,8 @@ svg * {
 
 @media (max-width:600px) {
     .ul-categories {
-        margin-right: 100px;
+        position: relative;
+        right: 100px;
     }
 }
 
