@@ -604,3 +604,19 @@ svg * {
 .left-butt-man-woman1 {
     padding: 10px 20px;
 }
+
+.x-small-ele {
+    display: flex;
+    justify-content: center;
+    text-align-last: center;
+    margin-bottom: 25px;
+}
+
+.img-company {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+}
+.sec-small-eleme{
+    margin-top: 150px;
+}
