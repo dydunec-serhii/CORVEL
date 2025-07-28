@@ -446,6 +446,12 @@ svg * {
     margin-left: 130px;
 }
 
+@media (max-width:600px) {
+    .ul-categories {
+        margin-right: 100px;
+    }
+}
+
 .posision-summary {
     display: flex;
     justify-content: end;
@@ -453,16 +459,16 @@ svg * {
 }
 
 .img-first-sec-photo {
-    outline: #000000 2px solid;
-    height: 530px;
-    width: 400px;
+    outline: #000000 1px solid;
+    height: 500px;
+    width: 370px;
 
 }
 
 .p-span-first-sec {
-    outline: #000000 2px solid;
-    width: 400px;
-    height: 70px;
+    outline: #000000 1px solid;
+    width: 370px;
+    height: 60px;
     margin-top: 3px;
     padding-left: 15px;
     padding-top: 3px;
@@ -485,6 +491,27 @@ svg * {
     flex-wrap: wrap;
 }
 
-@media (max-width:1900px) {
+/* @media (max-width:1900px) {
     
+} */
+.mar-top-fir-sec-photo {
+    margin-top: 20px;
+}
+
+@media (max-width:1290px) {
+    .mar-top-one {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:1155px) {
+    .mar-top-one {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:785px) {
+    .mar-top-one {
+        margin-top: 20px;
+    }
 }
