@@ -409,6 +409,19 @@ svg * {
     margin-top: 450px;
     margin-left: 135px;
 }
+@media (max-width:530px) {
+    .mixed-tex{
+        position: relative;
+        right: 50px;
+    }
+}
+@media (max-width:460px) {
+    .mixed-tex{
+        position: relative;
+        right: 100px;
+        bottom: 100px;
+    }
+}
 
 .h1-mix-fix {
     font-size: 45px;
@@ -452,7 +465,16 @@ svg * {
         right: 100px;
     }
 }
-
+@media (max-width:1000px) {
+    .col-adapt{
+        color: #5c5858;
+    }
+}
+@media (max-width:570px) {
+    .header-icons{
+        margin-top: 40px;
+    }
+}
 .posision-summary {
     display: flex;
     justify-content: end;
