@@ -310,6 +310,7 @@ svg * {
     background-color: black;
     width: calc(100% - 140px);
 }
+
 .div-palka {
     position: absolute;
     top: 70px;
@@ -319,6 +320,7 @@ svg * {
     background-color: black;
     width: calc(100% - 140px);
 }
+
 .head2 {
     background-image: url(./big-back/big-first-back.png);
     background-size: cover;
@@ -427,10 +429,62 @@ svg * {
     color: #000000;
     background-color: transparent;
 }
-.p-first-sec{
+
+.p-first-sec {
     font-size: 25px;
     display: flex;
     justify-content: center;
     margin-top: 150px;
-    text-align-last: center; 
+    text-align-last: center;
+}
+
+.ul-categories {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 130px;
+    column-gap: 40px;
+    margin-left: 130px;
+}
+
+.posision-summary {
+    display: flex;
+    justify-content: end;
+    margin-right: 140px;
+}
+
+.img-first-sec-photo {
+    outline: #000000 2px solid;
+    height: 530px;
+    width: 400px;
+
+}
+
+.p-span-first-sec {
+    outline: #000000 2px solid;
+    width: 400px;
+    height: 70px;
+    margin-top: 3px;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.sdfs {
+    margin-top: 500px;
+}
+
+.img-pacet {
+    width: 17px;
+    margin-left: 345px;
+    margin-top: -40px;
+
+}
+
+.first-clothes-sec {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1900px) {
+    
 }
