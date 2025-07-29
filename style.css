@@ -762,7 +762,7 @@ a {
 
 @media (max-width:1500px) {
    .three-fot-three-photo-sec{
-    margin-top: 100px;
+    margin-top: 130px;
    }
 }
 @media (max-width:1000px) {
@@ -770,6 +770,21 @@ a {
      margin-top: 10px;
     }
     .two-fot-three-photo-sec{
-        margin-top: 100px;
+        margin-top: 130px;
     }
+    .three-fot-three-photo-sec{
+        margin-top: 40px;
+       }
+ }
+ .a-three-photos2{
+    position: relative;
+    top: 450px;
+    color: #000000;
+    font-size: 12px;
+ }
+ .a-three-photos{
+    position: relative;
+    top: 540px;
+    color: #000000;
+    font-size: 12px;
  }
