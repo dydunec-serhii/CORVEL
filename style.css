@@ -489,13 +489,13 @@ svg * {
 .img-first-sec-photo {
     outline: #000000 1px solid;
     height: 500px;
-    width: 370px;
+    width: 400px;
 
 }
 
 .p-span-first-sec {
     outline: #000000 1px solid;
-    width: 370px;
+    width: 400px;
     height: 60px;
     margin-top: 3px;
     padding-left: 15px;
@@ -647,7 +647,7 @@ svg * {
 
     width: 100%;
     aspect-ratio: 1340 / 500;
-   min-height: 300px;
+    min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -670,3 +670,102 @@ svg * {
 a {
     color: white;
 }
+
+.zagol-sec-three-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.three-photo-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* flex-direction: column; */
+    margin-top: 100px;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.one-fot-three-photo-sec {
+    background-image: url(./three-sec-photo/first-kyrtka.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 550px;
+}
+
+.two-fot-three-photo-sec {
+    background-image: url(./three-sec-photo/sec-two-man.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    width: 450px;
+    height: 450px;
+}
+
+.three-fot-three-photo-sec {
+    background-image: url(./three-sec-photo/third-man.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 550px;
+}
+
+.p-three-sec-photo {
+    display: flex;
+    justify-content: flex-start;
+    outline: #000000 2px solid;
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: #FFFFFF;
+    padding: 3px;
+}
+
+.p-three-sec-photo2 {
+    position: relative;
+    top: 530px;
+}
+
+.p-three-sec-photo3 {
+    position: relative;
+    top: 430px;
+}
+
+.palka-three-sec-photo2 {
+    position: relative;
+    top: 420px;
+    height: 1.2px;
+    background-color: black;
+    width: calc(100% - 0px);
+}
+
+.palka-three-sec-photo {
+    position: relative;
+    top: 520px;
+    height: 1.2px;
+    background-color: black;
+    width: calc(100% - 0px);
+}
+
+@media (max-width:1500px) {
+   .three-fot-three-photo-sec{
+    margin-top: 100px;
+   }
+}
+@media (max-width:1000px) {
+    .three-fot-three-photo-sec{
+     margin-top: 10px;
+    }
+    .two-fot-three-photo-sec{
+        margin-top: 100px;
+    }
+ }
