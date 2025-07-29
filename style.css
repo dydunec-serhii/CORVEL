@@ -894,9 +894,11 @@ a {
     flex-wrap: wrap;
     column-gap: 40px;
 }
-.div-two-sec-img{
+
+.div-two-sec-img {
     margin-left: 50px;
 }
+
 .butt-mix-fix2 {
     border: none;
     outline: 1.5px solid black;
@@ -908,8 +910,55 @@ a {
     /* position: relative;
     left: 80px; */
 }
+
 @media (max-width:890px) {
-    .img-two-sec-widt{
+    .img-two-sec-widt {
         width: 600px;
+    }
+}
+
+.smal-sec {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.slider-container {
+    margin-top: 100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 20s linear infinite;
+}
+
+.slider img {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Адаптив */
+@media (max-width: 768px) {
+    .slider img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
     }
 }
