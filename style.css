@@ -589,7 +589,6 @@ svg * {
     background-repeat: no-repeat;
     width: 740px;
     height: 600px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -617,6 +616,57 @@ svg * {
     justify-content: center;
     column-gap: 60px;
 }
-.sec-small-eleme{
+
+.sec-small-eleme {
     margin-top: 150px;
+}
+
+/* .img-man-girl2 {
+    background-image: url(./big-back/big-back-man-girl.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    width: 1340px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+} */
+.img-man-girl2 {
+    background-image: url(./big-back/big-back-man-girl.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    aspect-ratio: 1340 / 500;
+   min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.man-girl-two {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    color: white;
 }
