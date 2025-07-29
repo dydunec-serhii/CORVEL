@@ -525,7 +525,11 @@ svg * {
 .mar-top-fir-sec-photo {
     margin-top: 20px;
 }
-
+@media (max-width:1645px) {
+    .mar-top-one {
+        margin-top: 20px;
+    }
+}
 @media (max-width:1290px) {
     .mar-top-one {
         margin-top: 20px;
