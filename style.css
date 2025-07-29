@@ -525,11 +525,13 @@ svg * {
 .mar-top-fir-sec-photo {
     margin-top: 20px;
 }
+
 @media (max-width:1645px) {
     .mar-top-one {
         margin-top: 20px;
     }
 }
+
 @media (max-width:1290px) {
     .mar-top-one {
         margin-top: 20px;
@@ -761,30 +763,120 @@ a {
 }
 
 @media (max-width:1500px) {
-   .three-fot-three-photo-sec{
-    margin-top: 130px;
-   }
-}
-@media (max-width:1000px) {
-    .three-fot-three-photo-sec{
-     margin-top: 10px;
-    }
-    .two-fot-three-photo-sec{
+    .three-fot-three-photo-sec {
         margin-top: 130px;
     }
-    .three-fot-three-photo-sec{
+}
+
+@media (max-width:1000px) {
+    .three-fot-three-photo-sec {
+        margin-top: 10px;
+    }
+
+    .two-fot-three-photo-sec {
+        margin-top: 130px;
+    }
+
+    .three-fot-three-photo-sec {
         margin-top: 40px;
-       }
- }
- .a-three-photos2{
+    }
+}
+
+.a-three-photos2 {
     position: relative;
     top: 450px;
     color: #000000;
     font-size: 12px;
- }
- .a-three-photos{
+}
+
+.a-three-photos {
     position: relative;
     top: 540px;
     color: #000000;
     font-size: 12px;
- }
+}
+
+.img-sec-back {
+    margin-top: 200px;
+    background-image: url(./big-back/back-sec.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.h1-sing-up-se-back{
+    font-size: 30px;
+}
+/* .gmail-sec-back{
+    margin-top: 50px;
+    width: 500px;
+    outline: none;
+    border-bottom: 1px solid black;
+    
+} */
+.img-sec-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gmail-sec-back {
+    margin-top: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    width: 500px;
+    padding: 5px;
+    color: black;
+}
+
+.gmail-sec-back::placeholder {
+    color: #999;
+}
+
+.img-sec-back button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 400px;
+    transform: translateY(-30px); /* Підтягуємо стрілку догори */
+}
+
+.img-sec-back button span {
+    display: inline-block;
+}
+@media (max-width: 768px) {
+    .gmail-sec-back {
+        width: 70%;
+        font-size: 14px;
+    }
+
+    .img-sec-back button {
+        font-size: 20px;
+        margin-left: 120px;
+        transform: translateY(-34px);
+    }
+}
+
+/* Адаптив для мобільних */
+@media (max-width: 480px) {
+    .gmail-sec-back {
+        width: 80%;
+        font-size: 13px;
+    }
+
+    .img-sec-back button {
+        font-size: 18px;
+        
+        transform: translateY(-32px);
+    }
+}
