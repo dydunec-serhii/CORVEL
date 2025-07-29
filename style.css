@@ -810,9 +810,11 @@ a {
     text-align: center;
     flex-direction: column;
 }
-.h1-sing-up-se-back{
+
+.h1-sing-up-se-back {
     font-size: 30px;
 }
+
 /* .gmail-sec-back{
     margin-top: 50px;
     width: 500px;
@@ -848,12 +850,14 @@ a {
     cursor: pointer;
     font-size: 20px;
     margin-left: 400px;
-    transform: translateY(-30px); /* Підтягуємо стрілку догори */
+    transform: translateY(-30px);
+    /* Підтягуємо стрілку догори */
 }
 
 .img-sec-back button span {
     display: inline-block;
 }
+
 @media (max-width: 768px) {
     .gmail-sec-back {
         width: 70%;
@@ -876,7 +880,36 @@ a {
 
     .img-sec-back button {
         font-size: 18px;
-        
+
         transform: translateY(-32px);
+    }
+}
+
+.two-sec-photo {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+.div-two-sec-img{
+    margin-left: 50px;
+}
+.butt-mix-fix2 {
+    border: none;
+    outline: 1.5px solid black;
+    font-size: 10px;
+    width: 190px;
+    height: 35px;
+    color: #000000;
+    background-color: transparent;
+    /* position: relative;
+    left: 80px; */
+}
+@media (max-width:890px) {
+    .img-two-sec-widt{
+        width: 600px;
     }
 }
