@@ -1,5 +1,4 @@
 .container {
-    outline: red 2px solid;
     max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
     margin-inline: auto;
     padding-inline: var(--container-padding-x);
@@ -828,6 +827,7 @@ a {
     align-items: center;
 }
 
+
 .gmail-sec-back {
     margin-top: 50px;
     border: none;
@@ -961,4 +961,56 @@ a {
     to {
         transform: translateX(-50%);
     }
+}
+
+.div-allfoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 120px;
+    font-size: 15px;
+    
+    align-items: center;
+    height: 300px;
+}
+.gmail-sec-back2 {
+    margin-top: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+    padding: 5px;
+    color: black;
+}
+.p-sec-foot{
+    margin-top: 20px;
+}
+.first-list-foot{
+    margin-top: 30px;
+}
+.h3-foot-sec{
+    position: relative;
+    top: 30px;
+}
+@media (max-width:1285px) {
+    .div-allfoot{
+     height: 400px;
+    }
+}
+@media (max-width:815px) {
+    .div-allfoot{
+     height: 650px;
+    }
+}
+@media (max-width:405px) {
+    .div-allfoot{
+     height: 900px;
+    }
+}
+.first-list-foot3{
+    position: relative;
+    bottom: 13px;
 }
