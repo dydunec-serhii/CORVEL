@@ -6,7 +6,7 @@ function autoScroll() {
     if (!isPaused) {
         slider.scrollLeft += scrollSpeed;
 
-        // Коли доскролює до кінця — повертаємось на початок плавно
+      
         if (slider.scrollLeft >= slider.scrollWidth / 2) {
             slider.scrollLeft = 0;
         }
@@ -15,7 +15,7 @@ function autoScroll() {
     requestAnimationFrame(autoScroll);
 }
 
-// Зупинка при наведенні
+
 slider.addEventListener('mouseenter', () => {
     isPaused = true;
 });
